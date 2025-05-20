@@ -12,7 +12,6 @@ python -m venv venv
 
 ```
 venv\Scripts\Activate
-(or on Mac): source venv/bin/activate
 ```
 
 <h3>3. Install libraries</h3>
@@ -75,6 +74,5 @@ $$;
 - Execute the following command:
 
 ```
-python ingest_in_db.py
-streamlit run agentic_rag_streamlit.py
+streamlit run app.py
 ```
